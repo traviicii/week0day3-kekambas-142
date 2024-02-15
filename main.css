@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* element selector */
+body {
+    background-color: #333333;
+    color: whitesmoke;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: salmon;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #dbd053;
+}
+
+main {
+    display: flex;
+}
+
+/* id selector # */
+#main-articles {
+    width: 70%;
+    background-color: #666666;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+#side-bar {
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: linear-gradient(rgba(249, 139, 29, 0), rgb(0,0,0,.5));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    text-align: center;
+}
+
+/* class selector .classname */
+.image-fit {
+    width: 100%;
+    height: auto;
+}
+
+#prof-pic {
+    width: 75%;
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+article p::first-letter {
+    font-variant: small-caps;
+    font-size: x-large;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: dodgerblue;
+    padding: 20px;
+}
+
+.grey-bg {
+    background: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,0.5));
+    margin-bottom: 50px;
+    padding: 25px;
+    border: 4px double gold;
+    border-radius: 20px;
+}
+
+textarea , input {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 25px;
+    background-color: #666666;
+}
+
+input::placeholder, textarea::placeholder {
+    color: whitesmoke;
+}
+
+button {
+    background-color: pink;
+    border-radius: 10px;
+    width: 80%;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #123456;
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+

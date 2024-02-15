@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travis P Portfolio</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h3>Travis' Website</h3>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Contact Me</a></li>
+                <li>
+                    <a href="https://github.com/traviicii" target="_blank">My GitHub</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="main-articles">
+            <article>
+                <h2>Who am I?</h2>
+                <img class="image-fit" src="./images/alien_dude.png" alt="Alien dude" />
+                <p>
+                    My name is Travis and I'm a software engineer and educator for
+                    Coding Temple!
+                </p>
+            </article>
+            <article>
+                <h2>My happy place (or close to it)</h2>
+                <img class="image-fit" src="./images/mindbender.png" alt="My happy place" />
+                <p>
+                    I love exploring my own creativity using inspiration from all around
+                    me.
+                </p>
+            </article>
+        </div>
+
+        <div id="side-bar">
+            <article class="grey-bg">
+                <img id="prof-pic" src="./images/image.png" alt="Image of me in a park" />
+                <h2>Travis Peck</h2>
+                New York <br />
+                Big apple!
+            </article>
+            <article class="grey-bg">
+                <h2>Contact Me!</h2>
+                <form method="post" action="mailto:travisp@codingtemple.com">
+                    <div>
+                        <label for="name_field"></label>
+                    </div>
+                    <input id="name_field" name="name_field" type="text" placeholder="Name" />
+
+                    <div>
+                        <label for="email-field"></label>
+                    </div>
+                    <input id="email_field" name="email_field" type="email" placeholder="name@email.com" />
+
+                    <div>
+                        <label for="message_field"></label>
+                    </div>
+                    <textarea id="message_field" name="message_field" rows="5"
+                        placeholder="Write your ideas here"></textarea>
+                    <div>
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </article>
+        </div>
+    </main>
+
+    <footer>&copy; Coding Temple, Inc.</footer>
+</body>
+
+</html>
